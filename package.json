@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcss-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./dist/css/input.css -o ./dist/css/output.css --watch",
+    "format": "prettier --write .",
+    "minify": "minify ./dist/css/output.css --out-file ./dist/css/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3"
+  }
+}

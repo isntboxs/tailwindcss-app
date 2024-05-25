@@ -31,6 +31,9 @@ module.exports = {
       screens: {
         "2xl": "1320px",
       },
+      animation: {
+        wiggle: "wiggle 1s ease-in-out infinite",
+      },
     },
   },
   plugins: [],
